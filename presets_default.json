@@ -1,0 +1,7034 @@
+[
+  {
+    "name": "90s RnB",
+    "pads": [
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 12,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Chill House",
+    "pads": [
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Gospel Soul",
+    "pads": [
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 15,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Neo Soul",
+    "pads": [
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min9",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min9",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Jazz Lush",
+    "pads": [
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min9",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min9",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Lo-Fi Bedroom",
+    "pads": [
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Trap Anthem",
+    "pads": [
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Pop Bright",
+    "pads": [
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Deep House",
+    "pads": [
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 20,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Afrobeats",
+    "pads": [
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 6,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Reggaeton",
+    "pads": [
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Bossa Nova",
+    "pads": [
+      {
+        "root": "d",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 10,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Church Hymn",
+    "pads": [
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Synthwave",
+    "pads": [
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Ambient Drift",
+    "pads": [
+      {
+        "root": "c",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 30,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Detroit Techno",
+    "pads": [
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Soul Ballad",
+    "pads": [
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 18,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Funk Stab",
+    "pads": [
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g#",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g#",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Hip Hop Crate",
+    "pads": [
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Indie Dream",
+    "pads": [
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "add9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "add9",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "add9",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "min",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "add9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Flamenco Fire",
+    "pads": [
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 5,
+        "strum_dir": "down",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "K-Pop Shine",
+    "pads": [
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj9",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj9",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Post-Rock Open",
+    "pads": [
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "5th",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "5th",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 1,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "5th",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 2,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "5th",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "g",
+        "type": "sus2",
+        "inversion": 0,
+        "strum": 25,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  },
+  {
+    "name": "Caribbean Sun",
+    "pads": [
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 1,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 2,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "off",
+        "reverse_art": "off"
+      },
+      {
+        "root": "g",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d",
+        "type": "dom7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "c",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "e",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "a",
+        "type": "min7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "b",
+        "type": "min",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "f#",
+        "type": "dim",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      },
+      {
+        "root": "d#",
+        "type": "maj7",
+        "inversion": 0,
+        "strum": 8,
+        "strum_dir": "up",
+        "articulation": "on",
+        "reverse_art": "on"
+      }
+    ]
+  }
+]

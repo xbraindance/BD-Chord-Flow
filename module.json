@@ -1,0 +1,39 @@
+{
+    "api_version": 1,
+    "id": "expressive-chords",
+    "name": "Expressive Chords",
+    "abbrev": "EX",
+    "version": "0.5.0",
+    "author": "Magnus Liljebergh",
+    "builtin": false,
+    "ui": "ui.js",
+    "component_type": "midi_fx",
+    "chainable": true,
+    "capabilities": {
+        "chainable": true,
+        "component_type": "midi_fx",
+        "raw_midi": true,
+        "ui_hierarchy": {
+            "levels": {
+                "root": {
+                    "name": "Expressive Chords",
+                    "list_param": "preset",
+                    "count_param": "preset_count",
+                    "name_param": "pad_label",
+                    "knobs": ["pad","root","type","inversion","strum","strum_dir","articulation","reverse_art"],
+                    "params": [
+                        {"key": "pad",         "name": "Pad",         "type": "int",  "min": 1,  "max": 32, "step": 1, "default": 1},
+                        {"key": "root",        "name": "Root",        "type": "enum", "options": ["c","c#","d","d#","e","f","f#","g","g#","a","a#","b"], "default": 0},
+                        {"key": "type",        "name": "Chord Type",  "type": "enum", "options": ["maj","min","dom7","maj7","min7","sus2","sus4","add9","min9","maj9","dim","aug","5th","6th","min6","dom9"], "default": 0},
+                        {"key": "inversion",   "name": "Inversion",   "type": "enum", "options": ["root","1st","2nd","3rd"], "default": 0},
+                        {"key": "strum",       "name": "Strum",       "type": "int",  "min": 0,  "max": 100, "step": 1, "default": 0},
+                        {"key": "strum_dir",   "name": "Strum Dir",   "type": "enum", "options": ["up","down"], "default": 0},
+                        {"key": "articulation","name": "Articulation","type": "enum", "options": ["off","on"], "default": 0},
+                        {"key": "reverse_art", "name": "Reverse Art", "type": "enum", "options": ["off","on"], "default": 0},
+                        {"key": "save",        "name": "Save",        "type": "enum", "options": ["---","save"], "default": 0}
+                    ]
+                }
+            }
+        }
+    }
+}
