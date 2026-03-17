@@ -1,3 +1,5 @@
 build/
 dist/
 .DS_Store
+presets/private/
+src/presets/roland.json

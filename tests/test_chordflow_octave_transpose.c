@@ -36,6 +36,16 @@ static int send_note_on_get_first_note(midi_fx_api_v1_t *api, void *inst, int no
     return (int)out_msgs[0][1];
 }
 
+static void expect_str_param(midi_fx_api_v1_t *api, void *inst, const char *key, const char *expected) {
+    char buf[128];
+    memset(buf, 0, sizeof(buf));
+    if (api->get_param(inst, key, buf, sizeof(buf)) <= 0) fail("get_param string failed");
+    if (strcmp(buf, expected) != 0) {
+        fprintf(stderr, "FAIL: %s expected \"%s\" got \"%s\"\n", key, expected, buf);
+        exit(1);
+    }
+}
+
 int main(void) {
     host_api_v1_t host;
     midi_fx_api_v1_t *api;
@@ -57,6 +67,9 @@ int main(void) {
 
     inst = api->create_instance(".", NULL);
     if (!inst) fail("create_instance failed");
+
+    expect_str_param(api, inst, "name", "Chord Flow");
+    expect_str_param(api, inst, "display_name", "Chord Flow");
 
     /* New baseline default: +2 octaves */
     expect_int_param(api, inst, "global_octave", 2);

@@ -9,7 +9,8 @@
  *   'edit'     — per-pad chord settings editor
  */
 
-import { shouldFilterMessage, decodeDelta } from '../../shared/input_filter.mjs';
+import { shouldFilterMessage, decodeDelta } from '/data/UserData/move-anything/shared/input_filter.mjs';
+import { openTextEntry, closeTextEntry, isTextEntryActive, handleTextEntryMidi, drawTextEntry, tickTextEntry } from '/data/UserData/move-anything/shared/text_entry.mjs';
 
 // ─── CC constants ─────────────────────────────────────────────────────────────
 const CC_JOG   = 14;
@@ -36,11 +37,22 @@ const ROW_H    = 9;
 const VISIBLE  = Math.floor((LIST_BOT - LIST_TOP) / ROW_H); // 4
 
 // ─── Edit rows ────────────────────────────────────────────────────────────────
-const EDIT_KEYS   = ['pad','pad_octave','root','chord_type','inversion','strum','strum_dir','articulation','reverse_art','global_octave','global_transpose','save'];
-const EDIT_LABELS = ['Pad','Pad Oct','Root','Chord Type','Inversion','Strum','Strum Dir','Articulation','Reverse Art','Global Oct','Global Trans','Save'];
+const EDIT_KEYS   = ['pad','pad_octave','root','chord_type','inversion','bass','strum','strum_dir','articulation','reverse_art','global_octave','global_transpose','bank','save'];
+const EDIT_LABELS = ['Pad','Pad Oct','Root','Chord Type','Inversion','Bass','Strum','Strum Dir','Articulation','Reverse Art','Global Oct','Global Trans','Bank','Save'];
 const EDIT_ENUMS  = {
     root:         ['c','c#','d','d#','e','f','f#','g','g#','a','a#','b'],
-    chord_type:   ['maj','min','dom7','maj7','min7','sus2','sus4','add9','min9','maj9','dim','aug','5th','6th','min6','dom9'],
+    bass:         ['none','c','c#','d','d#','e','f','f#','g','g#','a','a#','b'],
+    chord_type:   [
+        'maj','min','5th','sus2','sus4','add2','add9','add11',
+        '6th','min6','maj7','min7','dom7','maj9','min9','dom9',
+        'dim','dim7','m7b5','aug','aug7','sus7','7sus2','7sus4',
+        '9sus','sus9','11th','m11','sus11','13th','maj13','min13',
+        'dom7add9','dom7b9','dom7#9','dom7#5','dom7alt','maj7#5','maj7b5','maj7#11','maj9#11',
+        'madd9','madd11','mb5','mb6','m7b13','m7add13','m11b5','mM13','sus13','add13',
+        '11sus','11sus2','13b9','5add9','5b9','6sus2','6sus2b5','6sus4','7#9#5','9#11',
+        'dimM7','dim#5','dim11','addb9','aug#9','mb7','mb9','mb13','m6addb13',
+        'no3','no5','maj7add6','maj7sus2','maj9no3','maj6'
+    ],
     inversion:    ['root','1st','2nd','3rd'],
     strum_dir:    ['up','down'],
     articulation: ['off','on'],
@@ -56,10 +68,16 @@ let shiftHeld   = false;
 let presetIndex = 0;
 let presetCount = 0;
 let presetName  = '';
+let bankIndex = 0;
+let bankCount = 0;
+let bankName = '';
+let bankPreset = 0;
+let bankPresetCount = 0;
 
 // Edit
 let editRow  = 0;
 let editVals = {};
+let editValueMode = false;
 let saveStatus = '---';
 let saveFlashTicks = 0;
 
@@ -68,6 +86,12 @@ function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
 function trunc(s, n) { return s.length > n ? s.substring(0, n - 1) + '~' : s; }
 function formatEditValue(key, raw) {
     if (key === 'root') return raw.toUpperCase();
+    if (key === 'bass') return raw === 'none' ? raw : raw.toUpperCase();
+    if (key === 'bank') {
+        const n = (parseInt(raw) || 0) + 1;
+        const suffix = bankName ? ` ${trunc(bankName, 9)}` : '';
+        return `${n}${suffix}`;
+    }
     return raw;
 }
 function noteToPad(note) {
@@ -89,14 +113,18 @@ function refreshPreset() {
     presetCount = parseInt(dspGet('preset_count')) || 0;
     presetIndex = parseInt(dspGet('preset'))       || 0;
     presetName  = dspGet('preset_name');
+    bankCount = parseInt(dspGet('bank_count')) || 0;
+    bankIndex = parseInt(dspGet('bank')) || 0;
+    bankName = dspGet('bank_name');
+    bankPreset = parseInt(dspGet('bank_preset')) || 0;
+    bankPresetCount = parseInt(dspGet('bank_preset_count')) || 0;
 }
 
 function selectPreset(idx) {
     if (idx < 0) idx = presetCount - 1;
     if (idx >= presetCount) idx = 0;
     dspSet('preset', idx);
-    presetIndex = idx;
-    presetName  = dspGet('preset_name');
+    refreshPreset();
     needsRedraw = true;
 }
 
@@ -116,14 +144,26 @@ function readEditVals(knownPad) {
 }
 
 function triggerSave() {
-    saveStatus = 'saving';
-    editVals.save = saveStatus;
-    dspSet('save', 'save');
-    refreshPreset();
-    saveStatus = 'saved';
-    saveFlashTicks = 40;
-    editVals.save = saveStatus;
-    needsRedraw = true;
+    const fallbackName = `Preset ${Math.max(1, presetCount + 1)}`;
+    openTextEntry({
+        title: 'Save Preset',
+        initialText: fallbackName,
+        onConfirm: (text) => {
+            const trimmed = (text || '').trim();
+            const nameToSave = trimmed.length > 0 ? trimmed : 'save';
+            saveStatus = 'saving';
+            editVals.save = saveStatus;
+            dspSet('save', nameToSave);
+            refreshPreset();
+            saveStatus = 'saved';
+            saveFlashTicks = 40;
+            editVals.save = saveStatus;
+            needsRedraw = true;
+        },
+        onCancel: () => {
+            needsRedraw = true;
+        }
+    });
 }
 
 function cycleVal(delta) {
@@ -147,6 +187,15 @@ function cycleVal(delta) {
         dspSet(key, opts[i]);
         editVals[key] = opts[i];
     } else {
+        if (key === 'bank') {
+            const maxBank = Math.max(0, (parseInt(dspGet('bank_count')) || 1) - 1);
+            const n = clamp((parseInt(cur) || 0) + delta, 0, maxBank);
+            dspSet(key, n);
+            refreshPreset();
+            readEditVals();
+            needsRedraw = true;
+            return;
+        }
         const isOctave = key === 'global_octave' || key === 'pad_octave';
         const isTranspose = key === 'global_transpose';
         const minVal = key === 'pad' ? 1 : (isOctave ? -6 : (isTranspose ? -12 : 0));
@@ -166,7 +215,8 @@ function cycleVal(delta) {
 // ─── Drawing ──────────────────────────────────────────────────────────────────
 function drawBrowserScreen() {
     clear_screen();
-    print(1, HEADER_Y, trunc('EX: Expressive Chords', 22), 1);
+    const header = `CF: ${bankName || '---'}`;
+    print(1, HEADER_Y, trunc(header, 22), 1);
     draw_rect(0, 11, SCREEN_W, 1, 1);
 
     if (presetCount > 0) {
@@ -185,8 +235,8 @@ function drawBrowserScreen() {
     }
 
     draw_rect(0, 53, SCREEN_W, 1, 1);
-    print(1,  FOOTER_Y, 'Clk:load+edit', 1);
-    print(84, FOOTER_Y, 'Jog:browse', 1);
+        print(1,  FOOTER_Y, 'Clk:load+edit', 1);
+        print(84, FOOTER_Y, 'Jog:browse', 1);
     host_flush_display();
     needsRedraw = false;
 }
@@ -213,7 +263,7 @@ function drawEditScreen() {
         const valX = SCREEN_W - val.length * 6 - 3;
 
         if (sel) {
-            draw_rect(0, y, SCREEN_W, ROW_H - 1, 1);
+            fill_rect(0, y, SCREEN_W, ROW_H, 1);
             print(4,    y + 1, lbl, 0);
             print(valX, y + 1, val, 0);
         } else {
@@ -231,8 +281,13 @@ function drawEditScreen() {
     }
 
     draw_rect(0, 53, SCREEN_W, 1, 1);
-    print(1,  FOOTER_Y, 'Jog:val', 1);
-    print(48, FOOTER_Y, 'Up/Dn:row', 1);
+    if (editValueMode) {
+        print(1,  FOOTER_Y, 'Jog:val', 1);
+        print(48, FOOTER_Y, 'Clk:done', 1);
+    } else {
+        print(1,  FOOTER_Y, 'Jog:row', 1);
+        print(48, FOOTER_Y, 'Clk:edit', 1);
+    }
     print(108, FOOTER_Y, 'Bk', 1);
     host_flush_display();
     needsRedraw = false;
@@ -248,7 +303,12 @@ function handleJogTurn(delta) {
     if (screen === 'browser') {
         selectPreset(presetIndex + delta);
     } else if (screen === 'edit') {
-        cycleVal(delta);
+        if (editValueMode) {
+            cycleVal(delta);
+        } else {
+            editRow = clamp(editRow + delta, 0, EDIT_KEYS.length - 1);
+            needsRedraw = true;
+        }
     }
 }
 
@@ -258,17 +318,29 @@ function handleClick() {
         dspSet('preset', presetIndex);
         saveStatus  = '---';
         saveFlashTicks = 0;
+        editValueMode = false;
         readEditVals();
         editRow     = 0;
         screen      = 'edit';
         needsRedraw = true;
-    } else if (screen === 'edit' && EDIT_KEYS[editRow] === 'save') {
-        triggerSave();
+    } else if (screen === 'edit') {
+        const key = EDIT_KEYS[editRow];
+        if (key === 'save') {
+            triggerSave();
+            return;
+        }
+        if (editValueMode) {
+            editValueMode = false;
+        } else {
+            editValueMode = true;
+        }
+        needsRedraw = true;
     }
 }
 
 function handleBack() {
     if (screen === 'edit') {
+        editValueMode = false;
         screen      = 'browser';
         refreshPreset();
         needsRedraw = true;
@@ -279,8 +351,10 @@ function handleBack() {
 
 function handleUpDown(dir) {
     if (screen === 'edit') {
-        editRow = clamp(editRow + dir, 0, EDIT_KEYS.length - 1);
-        needsRedraw = true;
+        if (!editValueMode) {
+            editRow = clamp(editRow + dir, 0, EDIT_KEYS.length - 1);
+            needsRedraw = true;
+        }
     } else {
         selectPreset(presetIndex + dir);
     }
@@ -288,12 +362,22 @@ function handleUpDown(dir) {
 
 // ─── Lifecycle ────────────────────────────────────────────────────────────────
 globalThis.init = function() {
+    if (isTextEntryActive()) {
+        closeTextEntry();
+    }
     refreshPreset();
     screen      = 'browser';
+    editValueMode = false;
     needsRedraw = true;
 };
 
 globalThis.tick = function() {
+    if (isTextEntryActive()) {
+        if (tickTextEntry()) needsRedraw = true;
+        drawTextEntry();
+        return;
+    }
+
     // Poll DSP's current_pad while in edit mode. This catches pad switches that
     // come through process_midi pad note handling regardless of whether
     // onMidiMessageInternal also fires for them.
@@ -316,6 +400,11 @@ globalThis.tick = function() {
 };
 
 globalThis.onMidiMessageInternal = function(data) {
+    if (isTextEntryActive()) {
+        handleTextEntryMidi(data);
+        return;
+    }
+
     if (shouldFilterMessage(data)) return;
     const status = data[0], d1 = data[1], d2 = data[2];
 
@@ -346,6 +435,11 @@ globalThis.onMidiMessageInternal = function(data) {
 };
 
 globalThis.onMidiMessageExternal = function(data) {
+    if (isTextEntryActive()) {
+        handleTextEntryMidi(data);
+        return;
+    }
+
     if (shouldFilterMessage(data)) return;
     const status = data[0], d1 = data[1], d2 = data[2];
     if ((status & 0xF0) === 0x90 && d2 > 0) {

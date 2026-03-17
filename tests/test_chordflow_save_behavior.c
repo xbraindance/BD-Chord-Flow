@@ -35,8 +35,15 @@ int main(void) {
     int before_count;
     int after_count;
     int active_idx;
+    int named_count_before;
+    int named_count_after;
+    int named_active_idx;
+    int bank_count;
     char name[64];
     char expected_name[64];
+    char preset_list[4096];
+    char bank_name[64];
+    const char *named_preset = "My Neo Set";
 
     memset(&host, 0, sizeof(host));
     host.api_version = MOVE_PLUGIN_API_VERSION;
@@ -50,6 +57,11 @@ int main(void) {
     if (!inst) fail("create_instance failed");
 
     before_count = get_int_param(api, inst, "preset_count");
+    bank_count = get_int_param(api, inst, "bank_count");
+    if (bank_count <= 0) {
+        fprintf(stderr, "FAIL: expected bank_count > 0 got %d\n", bank_count);
+        return 1;
+    }
 
     api->set_param(inst, "save", "save");
 
@@ -69,6 +81,37 @@ int main(void) {
     snprintf(expected_name, sizeof(expected_name), "Preset %d", before_count + 1);
     if (strcmp(name, expected_name) != 0) {
         fprintf(stderr, "FAIL: preset_name expected %s got %s\n", expected_name, name);
+        return 1;
+    }
+
+    named_count_before = get_int_param(api, inst, "preset_count");
+    api->set_param(inst, "save", named_preset);
+    named_count_after = get_int_param(api, inst, "preset_count");
+    if (named_count_after != named_count_before + 1) {
+        fprintf(stderr, "FAIL: named save preset_count expected %d got %d\n", named_count_before + 1, named_count_after);
+        return 1;
+    }
+
+    named_active_idx = get_int_param(api, inst, "preset");
+    if (named_active_idx != named_count_before) {
+        fprintf(stderr, "FAIL: named save active preset expected %d got %d\n", named_count_before, named_active_idx);
+        return 1;
+    }
+
+    get_str_param(api, inst, "preset_name", name, sizeof(name));
+    if (strcmp(name, named_preset) != 0) {
+        fprintf(stderr, "FAIL: named preset_name expected %s got %s\n", named_preset, name);
+        return 1;
+    }
+    get_str_param(api, inst, "bank_name", bank_name, sizeof(bank_name));
+    if (strcmp(bank_name, "User") != 0) {
+        fprintf(stderr, "FAIL: named save bank_name expected User got %s\n", bank_name);
+        return 1;
+    }
+
+    get_str_param(api, inst, "preset_list", preset_list, sizeof(preset_list));
+    if (strstr(preset_list, named_preset) == NULL) {
+        fprintf(stderr, "FAIL: preset_list missing named preset %s\n", named_preset);
         return 1;
     }
 

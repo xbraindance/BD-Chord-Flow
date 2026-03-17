@@ -20,7 +20,8 @@ src/
   module.json
   help.json
   ui.js
-  presets_default.json
+  presets/
+    default.json
   dsp/
     chord_flow_plugin.c
 scripts/
@@ -64,6 +65,13 @@ Output:
 The module is installed to:
 
 `/data/UserData/move-anything/modules/midi_fx/chord-flow/`
+
+Preset files are stored under:
+
+`/data/UserData/move-anything/modules/midi_fx/chord-flow/presets/`
+
+- `default.json` (shipped defaults)
+- `user.json` (saved user presets)
 
 ## References
 

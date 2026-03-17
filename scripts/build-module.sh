@@ -73,7 +73,8 @@ fi
 
 # Create build directories
 mkdir -p build
-mkdir -p "dist/$MODULE_ID"
+rm -rf "dist/$MODULE_ID"
+mkdir -p "dist/$MODULE_ID/presets"
 
 # Compile and link shared library
 echo "Linking dsp.so..."
@@ -89,7 +90,11 @@ ${CROSS_PREFIX}gcc -g -O3 -fPIC -shared \
 echo "Packaging..."
 cat src/module.json > "dist/$MODULE_ID/module.json"
 cat src/ui.js > "dist/$MODULE_ID/ui.js"
-cat src/presets_default.json > "dist/$MODULE_ID/presets_default.json"
+for preset_file in src/presets/*.json; do
+    [ -f "$preset_file" ] || continue
+    preset_name="$(basename "$preset_file")"
+    cat "$preset_file" > "dist/$MODULE_ID/presets/$preset_name"
+done
 if [ -f "src/help.json" ]; then
     cat src/help.json > "dist/$MODULE_ID/help.json"
 fi
