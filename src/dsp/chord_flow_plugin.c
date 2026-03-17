@@ -42,6 +42,8 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <unistd.h>
+#include <dirent.h>
+#include <ctype.h>
 
 /* ── API version ──────────────────────────────────────────────────────────── */
 #define MIDI_FX_API_VERSION   1
@@ -55,10 +57,8 @@
 #define PRESETS_SUBDIR        "presets"
 #define USER_PRESETS_FILE     "user.json"
 #define DEFAULT_PRESETS_FILE  "default.json"
-#define ROLAND_PRESETS_FILE   "roland.json"
 #define USER_BANK_NAME        "User"
 #define FACTORY_BANK_NAME     "Factory"
-#define ROLAND_BANK_NAME      "Roland J-6"
 #define OCT_MIN               -6
 #define OCT_MAX               6
 #define GLOBAL_OCT_DEFAULT    2
@@ -127,7 +127,7 @@ static const char *TYPE_NAMES[] = {
     /* Altered / specialized */
     "dom7add9","dom7b9","dom7#9","dom7#5","dom7alt","maj7#5","maj7b5","maj7#11","maj9#11",
     "madd9","madd11","mb5","mb6","m7b13","m7add13","m11b5","mM13","sus13","add13",
-    /* Extra specialized (Roland set coverage) */
+    /* Extra specialized */
     "11sus","11sus2","13b9","5add9","5b9","6sus2","6sus2b5","6sus4","7#9#5","9#11",
     "dimM7","dim#5","dim11","addb9","aug#9","mb7","mb9","mb13","m6addb13",
     /* Utility */
@@ -318,6 +318,43 @@ static void copy_cstr(char *dst, int dst_len, const char *src) {
 
 static int same_bank(const char *a, const char *b) {
     return strncmp(a ? a : "", b ? b : "", MAX_BANK_NAME) == 0;
+}
+
+static int has_json_ext(const char *name) {
+    size_t n;
+    if (!name) return 0;
+    n = strlen(name);
+    return (n > 5 && strcmp(name + n - 5, ".json") == 0);
+}
+
+static void infer_bank_name_from_filename(const char *filename, char *out, int out_len) {
+    int i = 0;
+    int new_word = 1;
+    if (strcmp(filename, DEFAULT_PRESETS_FILE) == 0) {
+        copy_cstr(out, out_len, FACTORY_BANK_NAME);
+        return;
+    }
+    if (strcmp(filename, USER_PRESETS_FILE) == 0) {
+        copy_cstr(out, out_len, USER_BANK_NAME);
+        return;
+    }
+    while (*filename && *filename != '.' && i < out_len - 1) {
+        char c = *filename++;
+        if (c == '_' || c == '-') {
+            out[i++] = ' ';
+            new_word = 1;
+            continue;
+        }
+        if (new_word && isalpha((unsigned char)c)) {
+            out[i++] = (char)toupper((unsigned char)c);
+            new_word = 0;
+        } else {
+            out[i++] = c;
+            new_word = 0;
+        }
+    }
+    out[i] = '\0';
+    if (i == 0) copy_cstr(out, out_len, FACTORY_BANK_NAME);
 }
 
 static int find_bank_index_by_name(expchords_t *inst, const char *name) {
@@ -620,10 +657,31 @@ static void load_presets_from_file(expchords_t *inst, const char *path, const ch
     free(json);
 }
 
+static void load_additional_preset_files(expchords_t *inst, const char *presets_dir) {
+    DIR *dir;
+    struct dirent *ent;
+    dir = opendir(presets_dir);
+    if (!dir) return;
+    while ((ent = readdir(dir)) != NULL) {
+        char path[800];
+        char bank_name[MAX_BANK_NAME];
+        const char *name = ent->d_name;
+        if (name[0] == '.') continue;
+        if (!has_json_ext(name)) continue;
+        if (strcmp(name, DEFAULT_PRESETS_FILE) == 0) continue;
+        if (strcmp(name, USER_PRESETS_FILE) == 0) continue;
+        snprintf(path, sizeof(path), "%s/%s", presets_dir, name);
+        infer_bank_name_from_filename(name, bank_name, sizeof(bank_name));
+        load_presets_from_file(inst, path, bank_name);
+        if (inst->preset_count >= MAX_PRESETS) break;
+    }
+    closedir(dir);
+}
+
 static void load_presets(expchords_t *inst) {
+    char presets_path[800];
     char user_path[800];
     char default_path[800];
-    char roland_path[800];
     int i;
 
     inst->preset_count = 0;
@@ -634,9 +692,9 @@ static void load_presets(expchords_t *inst) {
              inst->module_dir, PRESETS_SUBDIR, DEFAULT_PRESETS_FILE);
     load_presets_from_file(inst, default_path, FACTORY_BANK_NAME);
 
-    snprintf(roland_path, sizeof(roland_path), "%s/%s/%s",
-             inst->module_dir, PRESETS_SUBDIR, ROLAND_PRESETS_FILE);
-    load_presets_from_file(inst, roland_path, ROLAND_BANK_NAME);
+    snprintf(presets_path, sizeof(presets_path), "%s/%s",
+             inst->module_dir, PRESETS_SUBDIR);
+    load_additional_preset_files(inst, presets_path);
 
     snprintf(user_path, sizeof(user_path), "%s/%s/%s",
              inst->module_dir, PRESETS_SUBDIR, USER_PRESETS_FILE);

@@ -1,21 +1,25 @@
 # Chord Flow (Move Everything)
 
-Chord Flow is a chainable MIDI FX module for Move Everything that lets you browse, play, and edit 32-pad chord collections.
+Chord Flow is a chainable MIDI FX module for Move Everything that lets you browse banks of chord presets, play pads, and edit/save full pad sets.
 
 ## Current behavior
 
-- Starts in a preset browser.
+- Starts in a preset browser with bank shown in the title bar (`CF: <bank>`).
 - Click (jog press) loads the selected preset and enters edit mode.
+- Jog in browser scrolls continuously across all banks.
 - Pad presses select the active pad and refresh the edit values.
 - `Global Oct` (default `+2`) transposes all pads in the current preset.
 - `Global Trans` adds semitone transpose (`-12..+12`) for the whole preset.
 - `Pad Oct` adds per-pad octave transpose on top of `Global Oct`.
-- Chord type and other edit parameters are changed with the jog encoder.
-- Save row writes a new preset snapshot of all 32 pad slots.
+- `Bass` supports slash bass (`none` or note).
+- `Bank` parameter in edit view jumps directly to the first preset of a bank.
+- Save row writes a new preset snapshot to the `User` bank.
 
 ## Repository layout
 
 ```text
+docs/
+  PRESETS.md
 src/
   module.json
   help.json
@@ -38,6 +42,24 @@ tests/
 ```
 
 This layout matches the same structure used by modules like `superarp` and `eucalypso`.
+
+## Preset banks
+
+At runtime, banks are loaded in this order:
+
+1. `presets/default.json` -> `Factory`
+2. Any additional `presets/*.json` (except `default.json` and `user.json`) -> one bank per file
+3. `presets/user.json` -> `User`
+
+Save always targets `presets/user.json` (`User` bank).
+
+Local-only/private banks can be kept under `presets/private/` (gitignored) and copied manually as needed.
+
+## Preset format
+
+See full format docs here:
+
+- [docs/PRESETS.md](/Users/dominiklange/Documents/GitHub/move-everything-chordflow/docs/PRESETS.md)
 
 ## Build
 
@@ -66,11 +88,12 @@ The module is installed to:
 
 `/data/UserData/move-anything/modules/midi_fx/chord-flow/`
 
-Preset files are stored under:
+Preset files used at runtime are under:
 
 `/data/UserData/move-anything/modules/midi_fx/chord-flow/presets/`
 
 - `default.json` (shipped defaults)
+- `*.json` (additional banks, one bank per file)
 - `user.json` (saved user presets)
 
 ## References
