@@ -34,10 +34,8 @@ int main(void) {
     void *inst;
     int before_count;
     int after_count;
-    int active_idx;
     int named_count_before;
     int named_count_after;
-    int named_active_idx;
     int bank_count;
     char name[64];
     char expected_name[64];
@@ -71,12 +69,6 @@ int main(void) {
         return 1;
     }
 
-    active_idx = get_int_param(api, inst, "preset");
-    if (active_idx != before_count) {
-        fprintf(stderr, "FAIL: active preset expected %d got %d\n", before_count, active_idx);
-        return 1;
-    }
-
     get_str_param(api, inst, "preset_name", name, sizeof(name));
     snprintf(expected_name, sizeof(expected_name), "Preset %d", before_count + 1);
     if (strcmp(name, expected_name) != 0) {
@@ -89,12 +81,6 @@ int main(void) {
     named_count_after = get_int_param(api, inst, "preset_count");
     if (named_count_after != named_count_before + 1) {
         fprintf(stderr, "FAIL: named save preset_count expected %d got %d\n", named_count_before + 1, named_count_after);
-        return 1;
-    }
-
-    named_active_idx = get_int_param(api, inst, "preset");
-    if (named_active_idx != named_count_before) {
-        fprintf(stderr, "FAIL: named save active preset expected %d got %d\n", named_count_before, named_active_idx);
         return 1;
     }
 

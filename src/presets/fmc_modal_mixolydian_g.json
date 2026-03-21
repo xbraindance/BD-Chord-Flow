@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Hopeful Mysterious",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Joyful Triumphant",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -369,7 +369,7 @@
   },
   {
     "name": "003 Relaxed Romantic",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -422,17 +422,6 @@
         "root": "c",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -548,12 +537,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "004 Joyful Rebellious",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -582,17 +582,6 @@
       {
         "octave": 0,
         "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -732,12 +721,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "005 Triumphant Rebellious",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Triumphant Rebellious",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Hopeful Triumphant",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "008 Surprised Rebellious",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Cadence",
-    "bank": "FMC Modal Mixolydian - G",
+    "bank": "FMC G Mixolydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [

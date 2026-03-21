@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Joyful Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -20,40 +20,7 @@
         "octave": 0,
         "root": "c",
         "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
         "chord_type": "mb5",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "mb5",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -180,26 +147,48 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
-      }
-    ]
-  },
-  {
-    "name": "002 Hopeful Nostalgic",
-    "bank": "FMC Prog Maj - C",
-    "global_octave": 2,
-    "global_transpose": 0,
-    "pads": [
+      },
       {
         "octave": 0,
-        "root": "c",
+        "root": "g",
         "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
+        "chord_type": "sus2",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
       },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "sus2",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      }
+    ]
+  },
+  {
+    "name": "002 Hopeful Nostalgic",
+    "bank": "FMC C Major",
+    "global_octave": 2,
+    "global_transpose": 0,
+    "pads": [
       {
         "octave": 0,
         "root": "c",
@@ -364,12 +353,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "003 Relaxed Playful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -400,17 +400,6 @@
         "root": "c",
         "bass": "none",
         "chord_type": "dom7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj7",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -548,12 +537,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "add9",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "004 Relaxed Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Romantic Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Tender Spiritual",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Romantic Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "008 Joyful Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Peaceful Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1504,17 +1504,6 @@
         "root": "c",
         "bass": "none",
         "chord_type": "sus2",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -1648,6 +1637,17 @@
         "bass": "none",
         "chord_type": "add9",
         "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Joyful Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1686,17 +1686,6 @@
       {
         "octave": 0,
         "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -1836,12 +1825,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "011 Joyful Excited",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2025,7 +2025,7 @@
   },
   {
     "name": "012 Joyful Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2209,7 +2209,7 @@
   },
   {
     "name": "013 Romantic Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2295,17 +2295,6 @@
         "root": "c",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
@@ -2384,6 +2373,17 @@
         "bass": "none",
         "chord_type": "min",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -2393,7 +2393,7 @@
   },
   {
     "name": "014 Joyful Playful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2411,17 +2411,6 @@
       {
         "octave": 0,
         "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -2572,12 +2561,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "015 Romantic Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2761,7 +2761,7 @@
   },
   {
     "name": "016 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2945,7 +2945,7 @@
   },
   {
     "name": "017 Hopeful Joyful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3009,7 +3009,84 @@
         "root": "c",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -3020,7 +3097,7 @@
         "root": "f",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -3028,10 +3105,10 @@
       },
       {
         "octave": 0,
-        "root": "g",
+        "root": "f",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
+        "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -3041,85 +3118,8 @@
         "octave": 0,
         "root": "c",
         "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 2,
+        "chord_type": "maj7",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -3129,7 +3129,7 @@
   },
   {
     "name": "018 Hopeful Joyful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3313,7 +3313,7 @@
   },
   {
     "name": "019 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3497,7 +3497,7 @@
   },
   {
     "name": "020 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3528,17 +3528,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -3676,12 +3665,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "021 Tender Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3701,17 +3701,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -3860,12 +3849,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "022 Tender Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4049,7 +4049,7 @@
   },
   {
     "name": "023 Nostalgic Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4233,7 +4233,7 @@
   },
   {
     "name": "024 Nostalgic Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4417,7 +4417,7 @@
   },
   {
     "name": "025 Romantic Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4601,7 +4601,7 @@
   },
   {
     "name": "026 Playful Joyful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4785,7 +4785,7 @@
   },
   {
     "name": "027 Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4969,7 +4969,7 @@
   },
   {
     "name": "028 Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5153,7 +5153,7 @@
   },
   {
     "name": "029 Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5337,7 +5337,7 @@
   },
   {
     "name": "030 Hopeful Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5521,7 +5521,7 @@
   },
   {
     "name": "031 Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5705,7 +5705,7 @@
   },
   {
     "name": "032 Romantic Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5889,7 +5889,7 @@
   },
   {
     "name": "033 Romantic Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5931,28 +5931,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj7",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -6068,12 +6046,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min9",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min9",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "034 Playful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6257,7 +6257,7 @@
   },
   {
     "name": "035 Nostalgic Peaceful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6441,7 +6441,7 @@
   },
   {
     "name": "036 Playful Joyful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6472,17 +6472,6 @@
         "root": "e",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -6620,12 +6609,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "037 Relaxed Joyful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6809,7 +6809,7 @@
   },
   {
     "name": "038 Joyful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6993,21 +6993,10 @@
   },
   {
     "name": "039 Joyful Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
       {
         "octave": 0,
         "root": "f",
@@ -7172,12 +7161,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "040 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7361,7 +7361,7 @@
   },
   {
     "name": "041 Nostalgic Playful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7545,32 +7545,10 @@
   },
   {
     "name": "042 Nostalgic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
       {
         "octave": 0,
         "root": "f",
@@ -7724,12 +7702,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "043 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7760,17 +7760,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -7908,12 +7897,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "044 Hopeful Triumphant",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8097,7 +8097,7 @@
   },
   {
     "name": "045 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8281,7 +8281,7 @@
   },
   {
     "name": "046 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8465,7 +8465,7 @@
   },
   {
     "name": "047 Hopeful Romantic",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8649,7 +8649,7 @@
   },
   {
     "name": "048 Triumphant Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8688,42 +8688,9 @@
       },
       {
         "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "d",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -8824,6 +8791,39 @@
         "bass": "none",
         "chord_type": "min",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -8833,7 +8833,7 @@
   },
   {
     "name": "049 Romantic Hopeful",
-    "bank": "FMC Prog Maj - C",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8862,17 +8862,6 @@
       {
         "octave": 0,
         "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -9008,6 +8997,17 @@
         "bass": "none",
         "chord_type": "add9",
         "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,

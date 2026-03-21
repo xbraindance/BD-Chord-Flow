@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Triumphant Mysterious",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Spiritual Nostalgic",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -369,7 +369,7 @@
   },
   {
     "name": "003 Romantic",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -398,17 +398,6 @@
       {
         "octave": 0,
         "root": "d",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -548,12 +537,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "004 Hopeful Nostalgic",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -614,120 +614,120 @@
       },
       {
         "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
         "root": "d",
         "bass": "none",
         "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "sus4",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "sus4",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj7",
         "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "sus4",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "sus4",
-        "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Mysterious Nostalgic",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Mysterious Nostalgic",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Mysterious Hopeful",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "008 Triumphant",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Mysterious Rebellious",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1556,17 +1556,6 @@
       },
       {
         "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "a",
         "bass": "none",
         "chord_type": "min",
@@ -1648,6 +1637,17 @@
         "bass": "none",
         "chord_type": "maj",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Dark",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "011 Cadence",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2025,7 +2025,7 @@
   },
   {
     "name": "012 Cadence",
-    "bank": "FMC Modal Aeolian - A",
+    "bank": "FMC A Aeolian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [

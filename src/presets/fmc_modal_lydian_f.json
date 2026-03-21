@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Surprised Mysterious",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -19,17 +19,6 @@
       {
         "octave": 0,
         "root": "f#",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -180,12 +169,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "002 Joyful Hopeful",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -369,7 +369,7 @@
   },
   {
     "name": "003 Surprised Triumphant",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -553,7 +553,7 @@
   },
   {
     "name": "004 Excited Triumphant",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Mysterious Triumphant",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Nostalgic Surprised",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Nostalgic Dark",
-    "bank": "FMC Modal Lydian - F",
+    "bank": "FMC F Lydian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1144,31 +1144,9 @@
       },
       {
         "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "b",
         "bass": "none",
         "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -1280,6 +1258,28 @@
         "bass": "none",
         "chord_type": "madd9",
         "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,

@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Mysterious Surprised",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Triumphant Rebellious",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -214,17 +214,6 @@
       {
         "octave": 0,
         "root": "c",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -364,12 +353,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "003 Triumphant Mysterious",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -553,7 +553,7 @@
   },
   {
     "name": "004 Mysterious Nostalgic",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Mysterious Rebellious",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Hopeful Triumphant",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Mysterious Hopeful",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "008 Nostalgic Hopeful",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Hopeful Nostalgic",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1537,117 +1537,117 @@
         "root": "g",
         "bass": "none",
         "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g",
+        "bass": "none",
+        "chord_type": "maj7",
         "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 2,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 1,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Mysterious Tender",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1841,21 +1841,10 @@
   },
   {
     "name": "011 Fearful Mysterious",
-    "bank": "FMC Modal Dorian - D",
+    "bank": "FMC D Dorian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
       {
         "octave": 0,
         "root": "a",
@@ -2016,6 +2005,17 @@
         "bass": "none",
         "chord_type": "min6",
         "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "dim7",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,

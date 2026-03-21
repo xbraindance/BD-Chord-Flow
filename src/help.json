@@ -18,6 +18,7 @@
         "Global Oct (default +2) sets preset-wide octave transpose",
         "Global Trn sets preset-wide semitone transpose",
         "Pad Oct sets per-pad octave transpose",
+        "Knobs 1-8 in Edit map to Root/Type/Inv/Bass/Pad Oct/Strum/Str Dir/Art",
         "Bass sets slash bass note (or none)",
         "Bank jumps to the selected bank",
         "Reset Patch asks for confirm, then resets all pads to C major/root/no bass",
@@ -29,7 +30,7 @@
     {
       "title": "Presets",
       "items": [
-        "Factory presets load from presets/default.json",
+        "Shipped banks load from presets/fmc_*.json",
         "Additional presets/*.json load as additional banks",
         "User presets are saved to presets/user.json"
       ]

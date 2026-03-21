@@ -40,6 +40,15 @@ MODE_INFO = {
 }
 
 MODE_ORDER = ["ionian", "dorian", "phrygian", "lydian", "mixolydian", "aeolian", "locrian"]
+MODE_SHORT = {
+    "ionian": "Ion",
+    "dorian": "Dor",
+    "phrygian": "Phr",
+    "lydian": "Lyd",
+    "mixolydian": "Mix",
+    "aeolian": "Aeo",
+    "locrian": "Loc",
+}
 
 MAJORISH_TYPES = {"maj", "maj7", "maj9", "add9", "add11", "6th", "maj6", "69", "add4", "maj7#11", "maj7b5", "maj7#5"}
 MINORISH_TYPES = {"min", "min7", "min9", "madd9", "madd11", "m11", "min6", "m69", "m7add11", "mM7", "mM7add11"}
@@ -263,8 +272,22 @@ def add_candidate(cands: List[Dict[str, object]], seen: set, slot: Dict[str, obj
     cands.append(slot)
 
 
+def dedupe_exact_slots(slots: Sequence[Dict[str, object]]) -> List[Dict[str, object]]:
+    out: List[Dict[str, object]] = []
+    seen = set()
+    for s in slots:
+        sig = slot_sig(s)
+        if sig in seen:
+            continue
+        seen.add(sig)
+        out.append(s)
+    return out
+
+
 def build_variation_slots(core: List[Dict[str, object]], target_len: int = 16) -> List[Dict[str, object]]:
-    slots = list(core)
+    # Exact duplicates are collapsed first (same root/type/inversion/bass/octave),
+    # preserving the first occurrence order.
+    slots = dedupe_exact_slots(core)
     seen = {slot_sig(s) for s in slots}
     cands: List[Dict[str, object]] = []
 
@@ -378,7 +401,7 @@ def generate_presets(source_lists: Dict[str, List[str]]) -> Dict[str, List[Dict[
         pads, mood = convert_line(line, tonic_offset=0)
         out["fmc_prog_maj_c"].append({
             "name": short_name(i, mood),
-            "bank": "FMC Prog Maj - C",
+            "bank": "FMC C Major",
             "global_octave": 2,
             "global_transpose": 0,
             "pads": pads,
@@ -389,7 +412,7 @@ def generate_presets(source_lists: Dict[str, List[str]]) -> Dict[str, List[Dict[
         pads, mood = convert_line(line, tonic_offset=9)
         out["fmc_prog_min_a"].append({
             "name": short_name(i, mood),
-            "bank": "FMC Prog Min - A",
+            "bank": "FMC A Minor",
             "global_octave": 2,
             "global_transpose": 0,
             "pads": pads,
@@ -409,7 +432,7 @@ def generate_presets(source_lists: Dict[str, List[str]]) -> Dict[str, List[Dict[
 
     for mode in MODE_ORDER:
         key = f"fmc_modal_{mode}_{NOTE_NAMES[MODE_INFO[mode]['offset']]}"
-        bank_name = f"FMC Modal {mode.title()} - {NOTE_NAMES[MODE_INFO[mode]['offset']].upper()}"
+        bank_name = f"FMC {NOTE_NAMES[MODE_INFO[mode]['offset']].upper()} {mode.title()}"
         for i, (line, mood) in enumerate(modal_groups[mode], start=1):
             pads, _ = convert_line(line, tonic_offset=MODE_INFO[mode]["offset"])
             out[key].append({

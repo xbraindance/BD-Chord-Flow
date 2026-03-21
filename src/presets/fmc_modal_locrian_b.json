@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Mysterious Dark",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Mysterious Dark",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -369,7 +369,7 @@
   },
   {
     "name": "003 Surprised Mysterious",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -400,28 +400,6 @@
         "root": "d",
         "bass": "none",
         "chord_type": "maj6",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
-        "bass": "none",
-        "chord_type": "maj7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "b",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -548,12 +526,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "004 Surprised Mysterious",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -571,17 +571,6 @@
       {
         "octave": 0,
         "root": "g",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "b",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -732,12 +721,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "005 Nostalgic Mysterious",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -921,7 +921,7 @@
   },
   {
     "name": "006 Romantic Nostalgic",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Mysterious Dark",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1134,17 +1134,6 @@
       {
         "octave": 0,
         "root": "d",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -1284,12 +1273,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "008 Mysterious Spiritual",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Mysterious Hopeful",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Mysterious Nostalgic",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1688,17 +1688,6 @@
         "root": "c",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "b",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -1836,12 +1825,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "011 Cadence",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1872,17 +1872,6 @@
         "root": "e",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "b",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -2020,12 +2009,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "012 Cadence",
-    "bank": "FMC Modal Locrian - B",
+    "bank": "FMC B Locrian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [

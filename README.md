@@ -25,7 +25,7 @@ src/
   help.json
   ui.js
   presets/
-    default.json
+    fmc_*.json
   dsp/
     chord_flow_plugin.c
 scripts/
@@ -47,9 +47,8 @@ This layout matches the same structure used by modules like `superarp` and `euca
 
 At runtime, banks are loaded in this order:
 
-1. `presets/default.json` -> `Factory`
-2. Any additional `presets/*.json` (except `default.json` and `user.json`) -> one bank per file
-3. `presets/user.json` -> `User`
+1. Any `presets/*.json` (except `user.json`) -> one bank per file
+2. `presets/user.json` -> `User`
 
 Save always targets `presets/user.json` (`User` bank).
 
@@ -107,9 +106,10 @@ Preset files used at runtime are under:
 
 `/data/UserData/move-anything/modules/midi_fx/chord-flow/presets/`
 
-- `default.json` (shipped defaults)
+- `fmc_*.json` (shipped FMC banks)
 - `*.json` (additional banks, one bank per file)
 - `user.json` (saved user presets)
+This module ships FMC banks only (`fmc_*.json`); no `default.json` is included.
 
 Custom chord bank `.json` files can be added either with Move Everything
 Installer (`Manage Presets`) or by copying files via SFTP into this `presets/`
@@ -118,3 +118,4 @@ folder.
 ## References
 
 - Move Everything module docs: [MODULES.md](https://github.com/handcraftedcc/move-everything/blob/main/docs/MODULES.md)
+- FMC source progression data: [ldrolez/free-midi-chords](https://github.com/ldrolez/free-midi-chords)

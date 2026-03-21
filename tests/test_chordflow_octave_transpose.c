@@ -55,7 +55,9 @@ int main(void) {
     int semitone_transposed;
     int stacked;
     int before_count;
+    int after_count;
     int saved_idx;
+    char expected_name[64];
 
     memset(&host, 0, sizeof(host));
     host.api_version = MOVE_PLUGIN_API_VERSION;
@@ -128,8 +130,15 @@ int main(void) {
     api->set_param(inst, "save", "save");
 
     saved_idx = get_int_param(api, inst, "preset");
-    if (saved_idx != before_count) {
-        fprintf(stderr, "FAIL: saved preset index expected %d got %d\n", before_count, saved_idx);
+    after_count = get_int_param(api, inst, "preset_count");
+    if (after_count != before_count + 1) {
+        fprintf(stderr, "FAIL: preset_count expected %d got %d\n", before_count + 1, after_count);
+        return 1;
+    }
+    snprintf(expected_name, sizeof(expected_name), "Preset %d", before_count + 1);
+    expect_str_param(api, inst, "preset_name", expected_name);
+    if (saved_idx < 0 || saved_idx >= after_count) {
+        fprintf(stderr, "FAIL: saved preset index out of range: %d\n", saved_idx);
         return 1;
     }
 

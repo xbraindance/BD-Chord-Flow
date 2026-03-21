@@ -21,6 +21,18 @@ const CC_UP    = 46;
 const CC_DOWN  = 47;
 const CC_LEFT  = 62;
 const CC_RIGHT = 63;
+const KNOB_CC_START = 71;
+const KNOB_CC_END = 78;
+const KNOB_BINDINGS = [
+    { key: 'root', label: 'Root' },
+    { key: 'chord_type', label: 'Type' },
+    { key: 'inversion', label: 'Inversion' },
+    { key: 'bass', label: 'Bass' },
+    { key: 'pad_octave', label: 'Pad Oct' },
+    { key: 'strum', label: 'Strum' },
+    { key: 'strum_dir', label: 'Str Dir' },
+    { key: 'articulation', label: 'Art' },
+];
 const PAD_NOTE_MIN = 36;
 const PAD_NOTE_MAX = 67;
 const PAD_NOTE_FALLBACK_MIN = 68;
@@ -83,6 +95,9 @@ let saveFlashTicks = 0;
 let resetStatus = 'ready';
 let resetFlashTicks = 0;
 let resetConfirmArmed = false;
+let knobOverlayName = '';
+let knobOverlayValue = '';
+let knobOverlayTicks = 0;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
@@ -96,6 +111,16 @@ function formatEditValue(key, raw) {
         return `${n}${suffix}`;
     }
     return raw;
+}
+function clearKnobOverlay() {
+    knobOverlayName = '';
+    knobOverlayValue = '';
+    knobOverlayTicks = 0;
+}
+function showKnobOverlay(name, key) {
+    knobOverlayName = name;
+    knobOverlayValue = formatEditValue(key, String(editVals[key] || '?'));
+    knobOverlayTicks = 48;
 }
 function noteToPad(note) {
     if (note >= PAD_NOTE_MIN && note <= PAD_NOTE_MAX) return note - PAD_NOTE_MIN + 1;
@@ -187,17 +212,8 @@ function triggerSave() {
     });
 }
 
-function cycleVal(delta) {
-    const key = EDIT_KEYS[editRow];
+function adjustEditKey(key, delta) {
     if (!key) return;
-    if (key === 'save') {
-        if (delta > 0) triggerSave();
-        return;
-    }
-    if (key === 'reset_patch') {
-        if (delta > 0) triggerResetPatch();
-        return;
-    }
 
     const cur = editVals[key] || '';
 
@@ -235,6 +251,37 @@ function cycleVal(delta) {
         }
     }
     needsRedraw = true;
+}
+
+function cycleVal(delta) {
+    const key = EDIT_KEYS[editRow];
+    if (!key) return;
+    if (key === 'save') {
+        if (delta > 0) triggerSave();
+        return;
+    }
+    if (key === 'reset_patch') {
+        if (delta > 0) triggerResetPatch();
+        return;
+    }
+    adjustEditKey(key, delta);
+}
+
+function handleKnobTurn(cc, value) {
+    const idx = cc - KNOB_CC_START;
+    const delta = decodeDelta(value);
+    let binding;
+    if (idx < 0 || idx >= KNOB_BINDINGS.length) return;
+    if (screen !== 'edit') return;
+    if (delta === 0) return;
+    binding = KNOB_BINDINGS[idx];
+    if (resetConfirmArmed) {
+        resetConfirmArmed = false;
+        resetStatus = 'ready';
+        editVals.reset_patch = resetStatus;
+    }
+    adjustEditKey(binding.key, delta);
+    showKnobOverlay(binding.label, binding.key);
 }
 
 // ─── Drawing ──────────────────────────────────────────────────────────────────
@@ -318,8 +365,25 @@ function drawEditScreen() {
     needsRedraw = false;
 }
 
+function drawKnobOverlay() {
+    const boxW = 108;
+    const boxH = 20;
+    const boxX = Math.floor((SCREEN_W - boxW) / 2);
+    const boxY = 18;
+    if (knobOverlayTicks <= 0 || !knobOverlayName) return;
+    fill_rect(boxX, boxY, boxW, boxH, 0);
+    draw_rect(boxX, boxY, boxW, boxH, 1);
+    print(boxX + 4, boxY + 3, trunc(knobOverlayName, 16), 1);
+    print(boxX + 4, boxY + 11, trunc(knobOverlayValue, 16), 1);
+    host_flush_display();
+}
+
 function redraw() {
-    if (screen === 'edit') { drawEditScreen(); return; }
+    if (screen === 'edit') {
+        drawEditScreen();
+        drawKnobOverlay();
+        return;
+    }
     drawBrowserScreen();
 }
 
@@ -353,6 +417,7 @@ function handleClick() {
         saveStatus  = '---';
         saveFlashTicks = 0;
         editValueMode = false;
+        clearKnobOverlay();
         readEditVals();
         editRow     = 0;
         screen      = 'edit';
@@ -381,6 +446,7 @@ function handleBack() {
         resetConfirmArmed = false;
         resetStatus = 'ready';
         editValueMode = false;
+        clearKnobOverlay();
         screen      = 'browser';
         refreshPreset();
         needsRedraw = true;
@@ -408,6 +474,7 @@ globalThis.init = function() {
     refreshPreset();
     screen      = 'browser';
     editValueMode = false;
+    clearKnobOverlay();
     needsRedraw = true;
 };
 
@@ -443,6 +510,13 @@ globalThis.tick = function() {
                 needsRedraw = true;
             }
         }
+        if (knobOverlayTicks > 0) {
+            knobOverlayTicks -= 1;
+            if (knobOverlayTicks === 0) {
+                clearKnobOverlay();
+                needsRedraw = true;
+            }
+        }
     }
     if (needsRedraw) redraw();
 };
@@ -466,6 +540,10 @@ globalThis.onMidiMessageInternal = function(data) {
     if (status === 0xB0 && d1 === CC_JOG)              {
         const delta = decodeDelta(d2);
         if (delta !== 0) handleJogTurn(delta);
+        return;
+    }
+    if (status === 0xB0 && d1 >= KNOB_CC_START && d1 <= KNOB_CC_END) {
+        handleKnobTurn(d1, d2);
         return;
     }
 

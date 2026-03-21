@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Dark Mysterious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -18,28 +18,6 @@
       },
       {
         "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "d",
         "bass": "none",
         "chord_type": "min",
@@ -76,17 +54,6 @@
         "root": "e",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min7",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -176,6 +143,39 @@
         "bass": "none",
         "chord_type": "5th",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Mysterious Triumphant",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -214,17 +214,6 @@
       {
         "octave": 0,
         "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
         "bass": "none",
         "chord_type": "min",
         "inversion": 0,
@@ -364,12 +353,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "003 Nostalgic Romantic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -553,7 +553,7 @@
   },
   {
     "name": "004 Nostalgic Romantic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Mysterious Dramatic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -779,39 +779,6 @@
         "root": "c#",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "b",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -916,12 +883,45 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g#",
+        "bass": "none",
+        "chord_type": "dim",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g#",
+        "bass": "none",
+        "chord_type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "006 Nostalgic Romantic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Mysterious Sad",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1134,17 +1134,6 @@
       {
         "octave": 0,
         "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "d",
         "bass": "none",
         "chord_type": "min",
         "inversion": 0,
@@ -1284,12 +1273,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "008 Sad Lonely",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Sad Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Sad Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1688,17 +1688,6 @@
         "root": "g#",
         "bass": "none",
         "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -1836,12 +1825,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "011 Mysterious Surprised",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1881,28 +1881,6 @@
       {
         "octave": 0,
         "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
         "bass": "none",
         "chord_type": "min",
         "inversion": 0,
@@ -2020,12 +1998,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "b",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "012 Sad Rebellious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2209,7 +2209,7 @@
   },
   {
     "name": "013 Dark Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2393,7 +2393,7 @@
   },
   {
     "name": "014 Mysterious Spiritual",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2443,17 +2443,6 @@
       },
       {
         "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "f#",
         "bass": "none",
         "chord_type": "69",
@@ -2476,17 +2465,6 @@
       },
       {
         "octave": 0,
-        "root": "g#",
-        "bass": "none",
-        "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "a",
         "bass": "none",
         "chord_type": "min",
@@ -2567,6 +2545,28 @@
         "root": "g#",
         "bass": "none",
         "chord_type": "dim",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f#",
+        "bass": "none",
+        "chord_type": "69",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f#",
+        "bass": "none",
+        "chord_type": "69",
         "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
@@ -2577,7 +2577,7 @@
   },
   {
     "name": "015 Nostalgic Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2761,7 +2761,7 @@
   },
   {
     "name": "016 Sad Tender",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2945,7 +2945,7 @@
   },
   {
     "name": "017 Sad Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3129,7 +3129,7 @@
   },
   {
     "name": "018 Sad Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3313,7 +3313,7 @@
   },
   {
     "name": "019 Mysterious Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3497,7 +3497,7 @@
   },
   {
     "name": "020 Mysterious Rebellious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3681,7 +3681,7 @@
   },
   {
     "name": "021 Triumphant Rebellious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3865,7 +3865,7 @@
   },
   {
     "name": "022 Mysterious Surprised",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -3893,17 +3893,6 @@
       },
       {
         "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "e",
         "bass": "none",
         "chord_type": "min",
@@ -3918,50 +3907,6 @@
         "root": "c#",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g#",
-        "bass": "none",
-        "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -4040,6 +3985,61 @@
         "bass": "none",
         "chord_type": "maj",
         "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "c#",
+        "bass": "none",
+        "chord_type": "maj",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "madd9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min9",
+        "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min6",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -4049,7 +4049,7 @@
   },
   {
     "name": "023 Mysterious Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4069,17 +4069,6 @@
         "root": "g#",
         "bass": "none",
         "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -4228,12 +4217,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "024 Rebellious Triumphant",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4417,7 +4417,7 @@
   },
   {
     "name": "025 Mysterious Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4601,7 +4601,7 @@
   },
   {
     "name": "026 Mysterious Surprised",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4662,39 +4662,6 @@
       },
       {
         "octave": 0,
-        "root": "f#",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g#",
-        "bass": "none",
-        "chord_type": "dim",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "a",
         "bass": "none",
         "chord_type": "min",
@@ -4776,6 +4743,39 @@
         "bass": "none",
         "chord_type": "maj",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -4785,7 +4785,7 @@
   },
   {
     "name": "027 Nostalgic Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -4969,7 +4969,7 @@
   },
   {
     "name": "028 Sad Romantic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5153,7 +5153,7 @@
   },
   {
     "name": "029 Rebellious Triumphant",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5184,17 +5184,6 @@
         "root": "f#",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g#",
-        "bass": "none",
-        "chord_type": "dim",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -5332,12 +5321,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "030 Dark Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5390,28 +5390,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "a",
-        "bass": "none",
-        "chord_type": "min7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "c#",
-        "bass": "none",
-        "chord_type": "maj7",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -5516,12 +5494,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "031 Nostalgic Romantic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5705,7 +5705,7 @@
   },
   {
     "name": "032 Peaceful Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -5889,7 +5889,7 @@
   },
   {
     "name": "033 Peaceful Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6073,7 +6073,7 @@
   },
   {
     "name": "034 Sad Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6257,7 +6257,7 @@
   },
   {
     "name": "035 Mysterious Tender",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6441,7 +6441,7 @@
   },
   {
     "name": "036 Nostalgic Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6625,7 +6625,7 @@
   },
   {
     "name": "037 Nostalgic Mysterious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6809,7 +6809,7 @@
   },
   {
     "name": "038 Nostalgic Mysterious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -6859,17 +6859,6 @@
       },
       {
         "octave": 0,
-        "root": "d",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "a",
         "bass": "none",
         "chord_type": "min",
@@ -6881,28 +6870,6 @@
       },
       {
         "octave": 0,
-        "root": "c#",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f#",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "d",
         "bass": "none",
         "chord_type": "min",
@@ -6984,6 +6951,39 @@
         "bass": "none",
         "chord_type": "maj",
         "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "d",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,
@@ -6993,7 +6993,7 @@
   },
   {
     "name": "039 Mysterious Rebellious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7177,7 +7177,7 @@
   },
   {
     "name": "040 Mysterious Hopeful",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7361,7 +7361,7 @@
   },
   {
     "name": "041 Triumphant",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7545,7 +7545,7 @@
   },
   {
     "name": "042 Dark Rebellious",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7729,7 +7729,7 @@
   },
   {
     "name": "043 Lonely",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -7913,7 +7913,7 @@
   },
   {
     "name": "044 Hopeful Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8097,7 +8097,7 @@
   },
   {
     "name": "045 Sad",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8117,17 +8117,6 @@
         "root": "f#",
         "bass": "none",
         "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -8276,12 +8265,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "046 Hopeful Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8465,7 +8465,7 @@
   },
   {
     "name": "047 Sad",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8649,7 +8649,7 @@
   },
   {
     "name": "048 Nostalgic Dark",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -8833,7 +8833,7 @@
   },
   {
     "name": "049 Hopeful Tender",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -9017,21 +9017,10 @@
   },
   {
     "name": "050 Empowered",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
-      {
-        "octave": 0,
-        "root": "f#",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
       {
         "octave": 0,
         "root": "f#",
@@ -9196,12 +9185,23 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "f#",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "051 Triumphant Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -9385,7 +9385,7 @@
   },
   {
     "name": "052 Rebellious Nostalgic",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -9569,7 +9569,7 @@
   },
   {
     "name": "053 Mysterious Dark",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -9753,7 +9753,7 @@
   },
   {
     "name": "054 Spiritual",
-    "bank": "FMC Prog Min - A",
+    "bank": "FMC A Minor",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -9773,17 +9773,6 @@
         "root": "d",
         "bass": "none",
         "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "g#",
-        "bass": "none",
-        "chord_type": "dim",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -9928,6 +9917,17 @@
         "bass": "none",
         "chord_type": "min6",
         "inversion": 0,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "g#",
+        "bass": "none",
+        "chord_type": "dim7",
+        "inversion": 1,
         "strum": 0,
         "strum_dir": 0,
         "articulation": 0,

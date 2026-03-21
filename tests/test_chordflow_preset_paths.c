@@ -45,7 +45,7 @@ int main(void) {
     char tmp_template[] = "/tmp/chordflow-paths-XXXXXX";
     char *tmp_dir;
     char presets_dir[1024];
-    char default_path[1024];
+    char fmc_path[1024];
     char user_path[1024];
     char preset_name[128];
     char bank_name[128];
@@ -61,10 +61,10 @@ int main(void) {
     snprintf(presets_dir, sizeof(presets_dir), "%s/presets", tmp_dir);
     if (mkdir(presets_dir, 0755) != 0) fail("mkdir presets failed");
 
-    snprintf(default_path, sizeof(default_path), "%s/default.json", presets_dir);
+    snprintf(fmc_path, sizeof(fmc_path), "%s/fmc_test.json", presets_dir);
     write_text_file(
-        default_path,
-        "[{\"name\":\"Path Default\",\"global_octave\":2,\"global_transpose\":0,"
+        fmc_path,
+        "[{\"name\":\"Path FMC\",\"bank\":\"FMC C Major\",\"global_octave\":2,\"global_transpose\":0,"
         "\"pads\":[{\"octave\":0,\"root\":0,\"chord_type\":\"maj\",\"inversion\":\"root\","
         "\"strum\":0,\"strum_dir\":\"up\",\"articulation\":\"off\",\"reverse_art\":\"off\"}]}]"
     );
@@ -78,13 +78,13 @@ int main(void) {
     if (!inst) fail("create_instance failed");
 
     get_str_param(api, inst, "preset_name", preset_name, sizeof(preset_name));
-    if (strcmp(preset_name, "Path Default") != 0) {
-        fprintf(stderr, "FAIL: expected preset_name Path Default, got %s\n", preset_name);
+    if (strcmp(preset_name, "Path FMC") != 0) {
+        fprintf(stderr, "FAIL: expected preset_name Path FMC, got %s\n", preset_name);
         return 1;
     }
     get_str_param(api, inst, "bank_name", bank_name, sizeof(bank_name));
-    if (strcmp(bank_name, "Factory") != 0) {
-        fprintf(stderr, "FAIL: expected bank_name Factory, got %s\n", bank_name);
+    if (strcmp(bank_name, "FMC C Major") != 0) {
+        fprintf(stderr, "FAIL: expected bank_name FMC C Major, got %s\n", bank_name);
         return 1;
     }
 

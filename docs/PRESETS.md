@@ -4,9 +4,8 @@ Chord Flow reads presets from JSON arrays of preset objects.
 
 Default load order:
 
-1. `presets/default.json` -> `Factory` bank
-2. Any additional `presets/*.json` (except `default.json` and `user.json`) -> one bank per file
-3. `presets/user.json` -> `User` bank
+1. Any `presets/*.json` (except `user.json`) -> one bank per file
+2. `presets/user.json` -> `User` bank
 
 Save behavior:
 
@@ -27,7 +26,7 @@ Each file is a JSON array:
 [
   {
     "name": "Preset Name",
-    "bank": "Factory",
+    "bank": "FMC C Major",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [ ... ]
@@ -40,7 +39,7 @@ Each file is a JSON array:
 - `name` (string): Display name in browser.
 - `bank` (string, optional in file):
   - If present, uses that bank name.
-  - If omitted, bank is inferred by source file (`Factory`/`User`).
+  - If omitted, bank is inferred by source filename.
 - `global_octave` (int): `-6..6`, default baseline is `2`.
 - `global_transpose` (int): `-12..12`.
 - `pads` (array): Up to 32 pad entries.
@@ -94,3 +93,8 @@ no3, no5, maj7add6, maj7sus2, maj9no3, maj6
 - Additional bank files are discovered automatically from `presets/*.json`.
 - Filename (without extension) is used as inferred bank name when `bank` is omitted.
 - `presets/private/` is ignored by git and can be used for local-only banks.
+
+## Credits
+
+- FMC preset bank source progressions were adapted from
+  [ldrolez/free-midi-chords](https://github.com/ldrolez/free-midi-chords).

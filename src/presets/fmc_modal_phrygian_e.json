@@ -1,7 +1,7 @@
 [
   {
     "name": "001 Mysterious Surprised",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -185,7 +185,7 @@
   },
   {
     "name": "002 Mysterious Rebellious",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -369,7 +369,7 @@
   },
   {
     "name": "003 Triumphant Hopeful",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -553,7 +553,7 @@
   },
   {
     "name": "004 Triumphant Rebellious",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -737,7 +737,7 @@
   },
   {
     "name": "005 Triumphant Hopeful",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -755,28 +755,6 @@
       {
         "octave": 0,
         "root": "d",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "maj",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "e",
         "bass": "none",
         "chord_type": "maj",
         "inversion": 0,
@@ -916,12 +894,34 @@
         "strum_dir": 0,
         "articulation": 0,
         "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "e",
+        "bass": "none",
+        "chord_type": "maj7",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
       }
     ]
   },
   {
     "name": "006 Surprised Mysterious",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "007 Mysterious Triumphant",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "008 Mysterious Tender",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "009 Mysterious Dark",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "010 Mysterious Rebellious",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "011 Mysterious Tender",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -1880,17 +1880,6 @@
       },
       {
         "octave": 0,
-        "root": "e",
-        "bass": "none",
-        "chord_type": "min",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
         "root": "b",
         "bass": "none",
         "chord_type": "min",
@@ -1905,17 +1894,6 @@
         "root": "a",
         "bass": "none",
         "chord_type": "min7",
-        "inversion": 0,
-        "strum": 0,
-        "strum_dir": 0,
-        "articulation": 0,
-        "reverse_art": 0
-      },
-      {
-        "octave": 0,
-        "root": "f",
-        "bass": "none",
-        "chord_type": "maj",
         "inversion": 0,
         "strum": 0,
         "strum_dir": 0,
@@ -2015,6 +1993,28 @@
         "root": "b",
         "bass": "none",
         "chord_type": "min",
+        "inversion": 2,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
+        "inversion": 1,
+        "strum": 0,
+        "strum_dir": 0,
+        "articulation": 0,
+        "reverse_art": 0
+      },
+      {
+        "octave": 0,
+        "root": "a",
+        "bass": "none",
+        "chord_type": "min7",
         "inversion": 2,
         "strum": 0,
         "strum_dir": 0,
@@ -2025,7 +2025,7 @@
   },
   {
     "name": "012 Mysterious Hopeful",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
@@ -2209,7 +2209,7 @@
   },
   {
     "name": "013 Mysterious Dark",
-    "bank": "FMC Modal Phrygian - E",
+    "bank": "FMC E Phrygian",
     "global_octave": 2,
     "global_transpose": 0,
     "pads": [
