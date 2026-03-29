@@ -1,4 +1,4 @@
-# Chord Flow (Schwung FKA Move Everything)
+# BD Chord Flow (Schwung FKA Move Everything)
 
 Chord Flow is a chainable MIDI FX module for Schwung that lets you play and combine chords for better chord progressions. Browse banks of chord presets, play pads to trigger chords, and edit/save full pad sets. 
 
